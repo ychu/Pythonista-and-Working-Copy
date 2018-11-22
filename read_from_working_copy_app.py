@@ -5,9 +5,9 @@
 
 import appex, os, shutil
 
-TARGET_DIR = 'WorkingCopy'
+TARGET_DIR = ''
 
-wc_dir = '~/Documents/{}'.format(TARGET_DIR)
+wc_dir = '/private/var/mobile/Library/Mobile Documents/iCloud~com~omz-software~Pythonista3/Documents/{}'.format(TARGET_DIR)
 from_wc = os.path.abspath(os.path.expanduser(wc_dir))
 
 
